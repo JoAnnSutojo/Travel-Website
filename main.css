@@ -1,0 +1,343 @@
+/* RESETS/UTILITIES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.max {
+    max-width: 800px;
+}
+
+/* FONT  */
+body {
+    width: 100vw;
+    font-family: palatino;
+}
+
+.header-conta {
+    width: 100vw;
+    margin-bottom: 2rem;
+    background-size: cover;
+}
+
+/* NAVIGATION */
+nav {
+    width: 50%;
+    margin: 0 auto;
+} 
+
+nav ul {
+    width: 100%;
+    margin-top: 1.5rem;
+    justify-content: space-evenly;
+} 
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 240);
+    font-weight: bold;
+}
+
+nav ul li a:hover, #current{
+    color: black;
+}
+
+nav ul li a:active {
+    color: black;
+}
+
+main {
+    flex-direction: column;
+}
+
+/* QUOTES */
+.Quotes {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+    word-spacing: 2px;
+    width: 72%;
+    padding: 20px;
+    border-top: black solid thin;
+    border-bottom: black solid thin;
+    font-family: modern;
+    font-style: italic;
+}
+
+/* H1  */
+.H1-1, .H1-2, .H1-3, .H1-4 {
+    color: rgb(255, 255, 240);
+    text-align: center;
+    padding: 120px;
+    font-size: 55px;
+}
+
+/* H2 */
+h2 {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+/* HOME PAGE  */
+.headerConta1 {
+    background-image: url(./Images/Pink-Beach-Indonesia.jpeg);
+}
+
+.PhotoHigh {
+    display: inline-block;
+    width: 257px;
+    height: 200px;
+    margin: 2.5px;
+    text-align: center;
+    padding-top: 175px;
+    color: rgb(255, 255, 240);
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.Food1 {
+    background-image: url(./Images/Pempek.jpeg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.Food2 {
+    background-image: url(./Images/Nasi-Campur-Bali.jpeg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.Food3 {
+    background-image: url(./Images/Soto-Ayam-1.jpeg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.Trav1 {
+    background-image: url(./Images/Lombok-Indonesia-1.jpeg);
+    background-size: cover;
+}
+
+.Trav2 {
+    background-image: url(./Images/Komodo-Dragon.jpeg);
+    background-size: cover;
+}
+
+.Trav3 {
+    background-image: url(./Images/Mount-Bromo.jpeg);
+    background-size: cover;
+}
+
+/* ABOUT PAGE  */
+.headerConta2 {
+    background-image: url(./Images/Raja-Ampat-Indonesia-Aerial.jpeg);
+    background-position: center center;
+}
+
+H2+P {
+    line-height: 25px;
+    word-spacing: 2px;
+}
+
+.AboutPics {
+    margin-top: 30px;
+}
+
+.People1, .People2, .Luwak, .Rafflesia {
+    background-size: cover;
+}
+
+.People1 {
+    background-image: url(./Images/Indonesian-Ethnicity-2.jpeg);
+}
+
+.People2 {
+    background-image: url(./Images/Indonesian-Kids-1.jpeg);
+}
+
+.Luwak {
+    background-image: url(./Images/kopi-luwak-2.jpeg);
+}
+
+.Rafflesia {
+    background-image: url(./Images/Rafflesia.jpeg);
+}
+
+.H3Large {
+    font-size: 25px;
+}
+
+/* FOOD PAGE */
+.headerConta3 {
+    background-image: url(./Images/indonesian-Spices.jpeg);
+    background-position: center center;
+}
+
+.PhotoGal {
+    display: inline-block;
+    width: 190px;
+    height: 140px;
+    margin: 2.5px;
+    text-align: center;
+    padding-top: 115px;
+    color: rgb(255, 255, 240);
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.PhotoGal:hover {
+    background-size: 300px;
+    } 
+
+.Rendang, .Lemper-Ayam, .Nasi-Goreng, .Klepon, .Sate-Ayam, .Siomay, .Martabak-Manis, .Babi-Guling, .Sop-Buntut {
+    background-size: cover;
+}
+
+.Rendang {
+    background-image: url(./Images/rendang-1.jpeg);
+}
+
+.Lemper-Ayam {
+    background-image: url(./Images/Lemper-Ayam.jpeg);
+}
+
+.Nasi-Goreng {
+    background-image: url(./Images/Nasi-Goreng-5.jpeg);
+}
+
+.Klepon {
+    background-image: url(./Images/Klepon-1.jpeg);
+}
+
+.Sate-Ayam {
+    background-image: url(./Images/sate-ayam-2.jpeg);
+    background-position: center bottom;
+}
+
+.Siomay {
+    background-image: url(./Images/Siomay-1.jpeg);
+}
+
+.Martabak-Manis {
+    background-image: url(./Images/Martabak-Manis.jpeg);
+}
+
+.Babi-Guling {
+    background-image: url(./Images/Babi-Guling-Bali-1.jpeg);
+}
+
+.Sop-Buntut {
+    background-image: url(./Images/Sop-Buntut-Sapi.jpeg);
+}
+
+/* TRAVEL PAGE  */
+.headerConta4 {
+    background-image: url(./Images/Ubud-Bali-2.jpeg);
+    background-position: center center;
+}
+
+main h2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.flexCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+
+.flexCont div {
+    width: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.flexCont img{
+    width: 350px;
+    height: 220px;
+}
+
+.flexCont > .text-conta > h3 {
+    margin: 0.5rem 0;
+}
+h3+p {
+    line-height: 20px;
+    word-spacing: 2px;
+}
+
+/* CLICK FOR MORE  */
+.clickMore {
+    text-decoration: none;
+    color: slategrey;
+}
+
+.clickMore:hover {
+    color: black;
+}
+
+/* GO TO TOP  */
+/* HTML codes in travel page  */
+.moved {
+    background-color:gainsboro;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    height: fit-content;    
+    width: fit-content;
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.moved:hover {
+    opacity: 1;
+}
+
+.moved a {
+    text-decoration: none;
+    color:black;
+}
+
+/* FOOTER  */
+/* HTML codes in travel page  */
+.footerConta {
+    margin-top: 2rem;
+    padding: 1rem;
+    color: rgb(255, 255, 240);
+    background-color: rgb(196, 193, 193);
+}
+
+.footerConta > p {
+    text-align: center;
+}
+
+.footerConta > p:nth-child(1), p:nth-child(2) {
+    margin-bottom: 10px;
+}
